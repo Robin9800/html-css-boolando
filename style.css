@@ -5,7 +5,7 @@
 }
 
 .container{
-    margin: 20px 30px;
+    margin-bottom: 40px;
     height: 100%;
     width: 100%;
 }
@@ -15,7 +15,14 @@
     display: inline-block;
     width: 346px;
     height: 500px;
-    
+    margin-top: 40px;
+}
+
+.variante{
+    position: absolute;
+    display: inline-block;
+    width: 346px;
+    height: 500px;
 }
 
 .heart{
@@ -34,7 +41,7 @@
     top: 466px;
     left: 0px;
     color: white;
-    background-color: red;
+    background-color: #e50641;
 }
 
 .eco{
@@ -45,7 +52,7 @@
     top: 466px;
     left: 42px;
     color: white;
-    background-color: green;
+    background-color: #08835a;
 }
 
 .solo{
@@ -56,7 +63,7 @@
     top: 466px;
     left: 0px;
     color: white;
-    background-color: green;
+    background-color: #08835a;
 }
 
 img{
@@ -65,15 +72,43 @@ img{
 
 .sinistra {
     margin-left: 100px;
-   margin-right: 20px;
+   margin-right: 10px;
 }
 
 .centro {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .destra {
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 100px;
 }
+
+.descrizione h2{
+    font-size: 12px;
+    color: #929189;
+}
+
+.descrizione h1{
+    color: black;
+    font-size: 13px;
+}
+
+.descrizione p{
+    font-size: 12px;
+    color: #e50641;
+}
+
+.descrizione del{
+    color: black;
+}
+
+.model:hover .heart{
+    color: red;
+}
+
+.model:hover .variante{
+    display: none;
+}
+
