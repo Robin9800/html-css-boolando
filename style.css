@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.model {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+}
+
+.sinistra {
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.centro {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.destra {
+    margin-left: 20px;
+    margin-right: 100px;
+}
