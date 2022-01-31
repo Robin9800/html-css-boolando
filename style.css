@@ -4,22 +4,68 @@
     box-sizing: border-box;
 }
 
-.model {
-    margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 300px;
-    height: 500px;
+.container{
+    margin: 20px 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.model{
+    position: relative;
     display: inline-block;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    border-image: initial;
+    width: 346px;
+    height: 500px;
+    
+}
+
+.heart{
+    position: absolute;
+    padding: 10px;
+    top: 12px;
+    right: -1px;
+    background-color: white;
+}
+
+.sconto{
+    position: absolute;
+    float: left;
+    font-size: 14px;
+    padding: 3px 4px;
+    top: 466px;
+    left: 0px;
+    color: white;
+    background-color: red;
+}
+
+.eco{
+    position: absolute;
+    float: left;
+    font-size: 14px;
+    padding: 3px 4px;
+    top: 466px;
+    left: 42px;
+    color: white;
+    background-color: green;
+}
+
+.solo{
+    position: absolute;
+    float: left;
+    font-size: 14px;
+    padding: 3px 4px;
+    top: 466px;
+    left: 0px;
+    color: white;
+    background-color: green;
+}
+
+img{
+   height: 100%;
 }
 
 .sinistra {
     margin-left: 100px;
-    margin-right: 20px;
+   margin-right: 20px;
 }
 
 .centro {
